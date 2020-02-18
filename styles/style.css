@@ -18,16 +18,17 @@
     /* parameters for the header section */
     position: relative;
     display: flex;
+    background-color: #f2f2f2;
 }
 
 .logo_place_header {
-    background-image: url(/images/logo.png);
+    background-image: url(./images/logo.png);
     background-size: contain;
     position: absolute;
     width: 154px;
     height: 31px;
-    margin-left: 64px;
-    margin-top: 30px;
+    left: 64px;
+    top: 30px;
     z-index: 4;
 }
 
@@ -49,8 +50,8 @@
     font-size: 18px;
     font-weight: normal;
     width: 388px;
-    margin-bottom: 30px;
-    margin-left: 64px;
+    bottom: 30px;
+    left: 64px;
     height: 64px;
     z-index: 3;
 }
@@ -196,6 +197,7 @@
     position: relative;
     flex-direction: column;
     height: 930px;
+    background-color: #f2f2f2;
 }
 
 .feynman__title {
@@ -317,7 +319,7 @@
 }
 
 .kaufman__triangle {
-    background-image: url(/images/triangle.svg)
+    background-image: url(./images/triangle.svg)
 }
 
 .footer {
@@ -355,7 +357,7 @@
 
 .logo_place_footer {
     position: absolute;
-    background-image: url(/images/logo_white.png);
+    background-image: url(./images/logo_white.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 183px;
