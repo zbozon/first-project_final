@@ -409,14 +409,12 @@
     font-size: 18px;
     font-weight: normal;
     color: white;
-}
-
-.footer__column-links {
-    color: grey;
     text-decoration: none;
 }
 
+
 .footer__column_content-social {
+    text-decoration: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
