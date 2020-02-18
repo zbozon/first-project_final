@@ -329,21 +329,20 @@
 /* Footer */
 
 .footer {
-    display: flex;
     flex-direction: row;
-    position: relative;
+    /* position: relative; */
     height: 300px;
     overflow: hidden;
     flex-basis: 711px;
-    padding-top: 60px;
-    padding-bottom: 40px;
     background-color: #1f1f1f;
     z-index: 1;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .footer__columns {
     margin: auto;
-    position: relative;   
+    justify-content: space-between; 
     width: 90%;
     display: flex;
     padding-top: 0;
@@ -371,7 +370,7 @@
 }
 
 .footer__author {
-    /* position: absolute; */
+    position: absolute;
     margin-bottom: 0;   
     padding-top: 18px;
     padding-bottom: 18px;
