@@ -95,7 +95,7 @@
 /* Main Content */
 
 .content {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .description {
@@ -168,7 +168,7 @@
 }
 
 .table {
-    margin: 0 auto 100px auto;
+    margin: 60 auto 60px auto;
     width: 1100px;
     display: flex;
     flex-direction: row;
@@ -202,6 +202,9 @@
     flex-direction: column;
     height: 930px;
     background-color: #f2f2f2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .feynman__title {
@@ -215,7 +218,7 @@
 }
 
 .feynman__subtitle {
-    margin: 1px auto;
+    margin: 70px auto;
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
@@ -233,8 +236,10 @@
 }
 
 .feynman__link {
+    height: 100%;
     position: absolute;
-    margin: 480px auto;
+    top: 50%;
+    margin: 50% auto;
     margin-right: 48px;
     line-height: 51px;
     color: blue;
