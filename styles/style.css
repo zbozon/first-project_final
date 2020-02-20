@@ -395,10 +395,21 @@
     font-weight: normal;
     color:  #4f4f4f;
     text-decoration: none;
-    margin-block-start: 0;
     padding-inline-start: 0;
     list-style-type: none;
-    
+}
+
+.footer__column-links_2 {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+    color:  #4f4f4f;
+    text-decoration: none;
+    padding-inline-start: 0;
+    list-style-type: none;
+    margin-bottom: 113px;
+    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .footer__column_content_social {
