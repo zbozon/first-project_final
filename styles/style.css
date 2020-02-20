@@ -17,6 +17,7 @@
     position: relative;
     display: flex;
     background-color: #f2f2f2;
+    overflow: hidden;
 }
 
 .logo {
@@ -223,6 +224,7 @@
 }
 
 .feynman__main-illustration {
+    background-image: url(../images/feynman.png);
     background-size: contain;
     position: absolute;
     bottom: 0;
@@ -332,11 +334,12 @@
 
 .footer__columns {
     margin: auto;
-    justify-content: space-between; 
+    /* justify-content: space-between;  */
     width: 90%;
     display: flex;
-    padding-top: 0;
-    height: 100%;
+    position: relative;
+    /* padding-top: 0;
+    height: 100%; */
     background-color: rgba(0,0,0,0.0);
 }
 
@@ -345,8 +348,9 @@
     left: 0;
     background-color: rgba(0,0,0,0.0);
     position: relative;
+    height: 280px;
     min-width: 50%;
-    /* max-width: 120px; */
+    max-width: 120px;
 }
 
 .logo_place_footer {
@@ -354,7 +358,7 @@
     background-image: url(../images/logo_white.png);
     width: 183px;
     height: 35px;   
-    margin-top: 0;
+    top: 0;
     z-index: 2;
 }
 
@@ -367,18 +371,13 @@
     font-size: 18px;
     font-weight: normal;
     color:  #4f4f4f;
+    bottom: 18px;
 }
 
 .footer__column_content_info {
-    display: flex;
     flex-direction: column;   
-    float: left;
     max-width: 240px;
-    flex-wrap: nowrap;
     margin-right: 200px;
-    position: relative;
-    padding: 0; 
-    margin-top: 0;
 }
 
 .footer__column-heading {
@@ -394,56 +393,38 @@
 }
 
 .footer__column-links {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    margin-top: 0px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 20px; */
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
     color:  #4f4f4f;
     text-decoration: none;
-    /* user-agent stylesheet reset */
     margin-block-start: 0;
-    margin-block-end: 0;
     padding-inline-start: 0;
+    list-style-type: none;
+    
 }
 
-.footer__column-links--set-margin {
+/* .footer__column-links--set-margin {
     margin: -20px 0;
-}
+} */
 
 .footer__column_content_social {
-    display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    float: left;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    align-content: center;
     width: 117px;
-    margin-top: 0px;
     margin-bottom: 16px;
-    padding-top: 0;
-}
-
-.footer__column-links--positioning {
-    margin-top: 0;
 }
 
 .footer__social-icon {
+    display: flex;
     margin-right: 10px;
-    padding-top: 0;
     color: grey;
     text-decoration: none;
+    line-height: 30px;
 }
-
-.footer__social-icon--positioning {
-    display: flex;
-    text-align: left;
-    /* flex-direction: row;
-    text-decoration: none; */
-}
-
